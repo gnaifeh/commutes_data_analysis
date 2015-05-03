@@ -1,0 +1,60 @@
+#original json import template for gmaps distance matrix api
+{
+   "destination_addresses" : [ "San Francisco, Californie, États-Unis", "Victoria, BC, Canada" ],
+   "origin_addresses" : [ "Vancouver, BC, Canada", "Seattle, Washington, États-Unis" ],
+   "rows" : [
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "1 708 km",
+                  "value" : 1708178
+               },
+               "duration" : {
+                  "text" : "3 jours 19 heures",
+                  "value" : 328279
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "139 km",
+                  "value" : 138555
+               },
+               "duration" : {
+                  "text" : "6 heures 42 minutes",
+                  "value" : 24148
+               },
+               "status" : "OK"
+            }
+         ]
+      },
+      {
+         "elements" : [
+            {
+               "distance" : {
+                  "text" : "1 452 km",
+                  "value" : 1451506
+               },
+               "duration" : {
+                  "text" : "3 jours 5 heures",
+                  "value" : 275567
+               },
+               "status" : "OK"
+            },
+            {
+               "distance" : {
+                  "text" : "146 km",
+                  "value" : 146496
+               },
+               "duration" : {
+                  "text" : "2 heures 52 minutes",
+                  "value" : 10324
+               },
+               "status" : "OK"
+            }
+         ]
+      }
+   ],
+   "status" : "OK"
+}
