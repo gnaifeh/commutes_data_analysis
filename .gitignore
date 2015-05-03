@@ -62,3 +62,5 @@ MySQL_data_file.pyc
 query_data_file.py
 query_data_file.pyc
 
+ec2_dumps/
+
