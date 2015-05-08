@@ -1,5 +1,7 @@
+#!/usr/bin/python
 
 import json
+import time
 import urllib2
 #import pandas as pd
 import numpy as np
@@ -39,7 +41,10 @@ current_destinations = add_districts([russian_hill, north_beach,\
 
 travel_mode = "transit"
 
-gmaps_query = urllib2.urlopen("""
+try_counter = 1
+while try_counter < 6:
+    try:
+        gmaps_query = urllib2.urlopen("""
 https://maps.googleapis.com/maps/api/\
 distancematrix/json?\
 origins={}&\
@@ -48,6 +53,11 @@ mode={}&\
 key={}&\
 departure_time=now""".\
 format(current_origins, current_destinations, travel_mode, query_data_file.gmaps_api_key))
+        try_counter += 6
+    except:
+        print "HTTP Request Failure on gmaps (afternoon). Attempt #{}".format(str(try_counter))
+        time.sleep(60)
+        try_counter += 1
 
 query_result = json.loads(gmaps_query.read())
 

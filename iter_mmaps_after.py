@@ -1,5 +1,7 @@
+#!/usr/bin/python
 
 import json
+import time
 import urllib
 import urllib2
 #import pandas as pd
@@ -11,6 +13,8 @@ import MySQL_data_file as MySQL_data
 import query_data_file
 
 #Neighborhoods to be used
+russian_hill = "Russian Hill, San Francisco, CA"
+north_beach = "North Beach, San Francisco, CA"
 pacific_heights = "Pacific Heights, San Francisco, CA"
 outer_richmond = "Outer Richmond, San+Francisco, CA"
 outer_sunset = "Outer Sunset, San Francisco, CA"
@@ -20,8 +24,8 @@ berkeley = "Berkeley, CA"
 oakland = "Oakland, CA"
 financial_district = "Financial District, San Francisco, CA"
 mountain_view = "Mountain View, CA"
-russian_hill = "Russian Hill, San Francisco, CA"
-north_beach = "North Beach, San Francisco, CA"
+#russian_hill = "Russian Hill, San Francisco, CA"
+#north_beach = "North Beach, San Francisco, CA"
 
 residential_neighborhoods = [russian_hill, north_beach, pacific_heights, outer_richmond,\
                             outer_sunset, mission_district, noe_valley,\
@@ -50,15 +54,23 @@ def query_db(command):
 #query the Bing maps API wiht a given origin and destination
 #returns a json object
 def queryMmaps(query_origin, query_destination, mmaps_api_key):
-    this_url = """http://dev.virtualearth.net/REST/v1/Routes?\
+    try_counter = 1
+    while try_counter < 6:
+        try:
+            this_url = """http://dev.virtualearth.net/REST/v1/Routes?\
 wayPoint.1={}&\
 wayPoint.2={}&\
 optimize=timeWithTraffic&\
 key={}""".\
 format(query_origin, query_destination, query_data_file.mmaps_api_key)
-    mmaps_query = urllib2.urlopen(this_url)
-    query_result = json.loads(mmaps_query.read())
-    return query_result
+            mmaps_query = urllib2.urlopen(this_url)
+            query_result = json.loads(mmaps_query.read())
+            return query_result
+        except:
+            print "HTTP Request Failure on mmaps (afternoon). Attempt #{}".format(str(try_counter))
+            time.sleep(60)
+            try_counter += 1
+
 
 #function that takes the json object and returns an
 #np array to be entered into the database

@@ -1,8 +1,6 @@
-#!/usr/bin/python
 
 import json
 import urllib2
-import time
 #import pandas as pd
 import numpy as np
 from numpy import division
@@ -33,18 +31,15 @@ def add_districts(list_of_districts):
         district_list_string = district_list_string + x + "|"
     return district_list_string
 
-current_origins = add_districts([russian_hill, north_beach,\
+current_origins = add_districts([oakland, financial_district, mountain_view])
+current_destinations = add_districts([russian_hill, north_beach,\
                             pacific_heights, outer_richmond,\
                             outer_sunset, mission_district, noe_valley,\
                             oakland, berkeley])
-current_destinations = add_districts([oakland, financial_district, mountain_view])
 
 travel_mode = "transit"
 
-try_counter = 1
-while try_counter < 6:
-    try:
-        gmaps_query = urllib2.urlopen("""
+gmaps_query = urllib2.urlopen("""
 https://maps.googleapis.com/maps/api/\
 distancematrix/json?\
 origins={}&\
@@ -53,11 +48,6 @@ mode={}&\
 key={}&\
 departure_time=now""".\
 format(current_origins, current_destinations, travel_mode, query_data_file.gmaps_api_key))
-        try_counter += 6
-    except:
-        print "HTTP Request Failure on gmaps (morning). Attempt #{}".format(str(try_counter))
-        time.sleep(60)
-        try_counter += 1
 
 query_result = json.loads(gmaps_query.read())
 
