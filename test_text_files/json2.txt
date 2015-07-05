@@ -1,0 +1,638 @@
+
+
+{
+  "authenticationResultCode": "ValidCredentials",
+  "brandLogoUri": "http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",
+  "copyright": "Copyright \u00a9 2015 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+  "resourceSets": [
+    {
+      "estimatedTotal": 1,
+      "resources": [
+        {
+          "__type": "Route:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",
+          "bbox": [
+            37.79392,
+            -122.420858,
+            37.800673,
+            -122.400162
+          ],
+          "id": "v66,h-1722486518,i0,a2,cen-US,dAAAAAAAAAAA1,y0,s1,m1,o1,t4,wZi1cAzhKHvU1~AhqWWstxEL4EAADgAQS7Ej8C0~UnVzc2lhbiBIaWxsLCBDQQ2~~~,wBgVcA9isHvU1~AhqWWstxBL4EAADgAVyDSD8A0~RmluYW5jaWFsIERpc3RyaWN0LCBDQQ2~~~,k1",
+          "distanceUnit": "Kilometer",
+          "durationUnit": "Second",
+          "routeLegs": [
+            {
+              "actualEnd": {
+                "type": "Point",
+                "coordinates": [
+                  37.79392,
+                  -122.401982
+                ]
+              },
+              "actualStart": {
+                "type": "Point",
+                "coordinates": [
+                  37.800673,
+                  -122.419353
+                ]
+              },
+              "alternateVias": [
+
+              ],
+              "cost": 0,
+              "description": "Larkin St, Broadway Tunnel",
+              "endLocation": {
+                "bbox": [
+                  37.785206,
+                  -122.40876,
+                  37.800156,
+                  -122.392929
+                ],
+                "name": "Financial District, CA",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    37.793831,
+                    -122.40197
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "CA",
+                  "adminDistrict2": "San Francisco Co.",
+                  "countryRegion": "United States",
+                  "formattedAddress": "Financial District, CA",
+                  "locality": "Financial District"
+                },
+                "confidence": "High",
+                "entityType": "Neighborhood",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      37.793831,
+                      -122.40197
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "itineraryItems": [
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 168,
+                      "endPathIndices": [
+                        1
+                      ],
+                      "locationCodes": [
+                        "105-10671"
+                      ],
+                      "maneuverType": "DepartStart",
+                      "mode": "Driving",
+                      "names": [
+                        "Hyde St"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "DepartStart",
+                    "text": "Depart Hyde St toward Filbert St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.800673,
+                      -122.419353
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "towardsRoadName": "Filbert St",
+                  "transitTerminus": "",
+                  "travelDistance": 0.06,
+                  "travelDuration": 14,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 261,
+                      "endPathIndices": [
+                        2
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Filbert St"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        1
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Filbert St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.800141,
+                      -122.419249
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.145,
+                  "travelDuration": 17,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 168,
+                      "endPathIndices": [
+                        4
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Larkin St"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        2
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Larkin St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.7999,
+                      -122.420858
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.434,
+                  "travelDuration": 54,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 83,
+                      "endPathIndices": [
+                        7
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Broadway Tunnel"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        4
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Broadway Tunnel"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.796112,
+                      -122.420107
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.837,
+                  "travelDuration": 89,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 81,
+                      "endPathIndices": [
+                        9
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Broadway"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        7
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto Broadway"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.79733,
+                      -122.410762
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.374,
+                  "travelDuration": 78,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 125,
+                      "endPathIndices": [
+                        11
+                      ],
+                      "locationCodes": [
+                        "105-08372",
+                        "105-06595",
+                        "105N06595"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Columbus Ave"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        9
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Columbus Ave"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.797888,
+                      -122.406637
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.401,
+                  "travelDuration": 83,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 171,
+                      "endPathIndices": [
+                        14
+                      ],
+                      "locationCodes": [
+                        "105-08303",
+                        "105N06614"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Montgomery St"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        11
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Montgomery St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.795549,
+                      -122.403257
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.099,
+                  "travelDuration": 32,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 83,
+                      "endPathIndices": [
+                        16
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Clay St"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        14
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Clay St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.794691,
+                      -122.403059
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.245,
+                  "travelDuration": 37,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 166,
+                      "endPathIndices": [
+                        19
+                      ],
+                      "locationCodes": [
+                        "105-14436"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Battery St"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        16
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Battery St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.795002,
+                      -122.40035
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.091,
+                  "travelDuration": 20,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 261,
+                      "endPathIndices": [
+                        21
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Sacramento St"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        19
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Sacramento St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.794181,
+                      -122.400162
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.163,
+                  "travelDuration": 29,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 262,
+                      "endPathIndices": [
+                        21
+                      ],
+                      "maneuverType": "ArriveFinish",
+                      "mode": "Driving",
+                      "names": [
+                        "Sacramento St"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        21
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "hints": [
+                    {
+                      "hintType": "PreviousIntersection",
+                      "text": "The last intersection is Sansome St"
+                    },
+                    {
+                      "hintType": "NextIntersection",
+                      "text": "If you reach Leidesdorff St, you've gone too far"
+                    }
+                  ],
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ArriveFinish",
+                    "text": "Arrive at Financial District, CA"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.79392,
+                      -122.401982
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0,
+                  "travelDuration": 0,
+                  "travelMode": "Driving"
+                }
+              ],
+              "routeRegion": "NAv2",
+              "routeSubLegs": [
+                {
+                  "endWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.79392,
+                      -122.401982
+                    ],
+                    "description": "Financial District, CA",
+                    "isVia": false,
+                    "locationIdentifier": "2|26|150|90|203|113|4|190|4|0|0|224|1|92|131|72|63|0|37.79392,-122.401982",
+                    "routePathIndex": 21
+                  },
+                  "startWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.800673,
+                      -122.419353
+                    ],
+                    "description": "Russian Hill, CA",
+                    "isVia": false,
+                    "locationIdentifier": "2|26|150|90|203|113|16|190|4|0|0|224|1|4|187|18|63|2|37.800673,-122.419353",
+                    "routePathIndex": 0
+                  },
+                  "travelDistance": 2.849,
+                  "travelDuration": 458
+                }
+              ],
+              "startLocation": {
+                "bbox": [
+                  37.795792,
+                  -122.425201,
+                  37.806034,
+                  -122.41185
+                ],
+                "name": "Russian Hill, CA",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    37.800762,
+                    -122.4189
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "CA",
+                  "adminDistrict2": "San Francisco Co.",
+                  "countryRegion": "United States",
+                  "formattedAddress": "Russian Hill, CA",
+                  "locality": "Russian Hill"
+                },
+                "confidence": "High",
+                "entityType": "Neighborhood",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      37.800762,
+                      -122.4189
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "travelDistance": 2.849,
+              "travelDuration": 458
+            }
+          ],
+          "trafficCongestion": "Medium",
+          "trafficDataUsed": "None",
+          "travelDistance": 2.849,
+          "travelDuration": 458,
+          "travelDurationTraffic": 664
+        }
+      ]
+    }
+  ],
+  "statusCode": 200,
+  "statusDescription": "OK",
+  "traceId": "e7c1a77fcb504c249e7fb2398144eac9|CO30276241|02.00.152.100|CO3SCH010273839, CO3SCH010265215, CO3SCH010265305, CO3SCH010275339, CO3SCH010264704, CO3SCH050581233, CO3SCH010273836, CO3SCH010265204, CO3SCH050520523, CO3SCH010265514, CO30305107, CO30213639"
+}

@@ -1,0 +1,32 @@
+#original gmaps iterate function
+array_of_entries = np.array([])
+query_time = datetime.now()
+query_origins = np.array(result2['origin_addresses'])
+query_destinations = np.array(result2['destination_addresses'])
+#iterate through and print all trips
+if result2['status'] == 'OK':
+    for i in np.arange(len(result2['rows'])):
+        for n in np.arange(len(query_elements)):
+            if (result2['rows'][i]['elements'][n]['status'] == "OK"): #if element status is ok
+                print "Trip from {} to destination {}".format(query_origins[i],query_destinations[n]) #replace this with the one below
+                if 'duration' in result2['rows'][i]['elements'][n]:
+                    this_trip_duration = result2['rows'][i]['elements'][n]['duration']['value']
+                    print "Duration:", this_trip_duration
+                if 'distance' in result2['rows'][i]['elements'][n]:
+                    this_trip_distance = result2['rows'][i]['elements'][n]['distance']['value']
+                    print "Distance:", this_trip_distance
+                if 'fare' in result2['rows'][i]['elements'][n]:
+                    this_trip_fare = result2['rows'][i]['elements'][n]['fare']['value']
+                    print "Fare:", this_trip_fare
+            else: #if element status is not ok (not_found or zero_results)
+                print "Element status is: {}".format(result2['rows'][i]['elements'][n]['status'])
+            entry_array = np.array([query_time, query_origins[i], query_destinations[n], this_trip_duration, this_trip_distance, this_trip_fare])
+            if array_of_entries == []:
+                array_of_entries = np.array(entry_array)
+            else:
+                array_of_entries = np.append(array_of_entries, entry_array)
+else:
+    print 'The status of the query was not listed as "Ok"'
+    print 'The status of the query was listed as: {}'.format(result2['status'])
+print datetime.now()
+print array_of_entries

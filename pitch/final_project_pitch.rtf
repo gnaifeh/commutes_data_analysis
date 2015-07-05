@@ -1,0 +1,49 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10960\viewh12100\viewkind0
+\deftab720
+\pard\pardeftab720\sa240
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+The Final Project Elevator Pitch includes both a short (one paragraph) write-up of your proposed project topic and a concise (<90 seconds) presentation to the class. The elevator pitch should include:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+A concise statement of the goal of your project\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+What question or questions you hope to answer\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+What data set you plan to use and how you will obtain the data\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+What type of machine learning problem this is (from our 2x2 matrix)\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Why you chose this project\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural
+\cf0 \kerning1\expnd0\expndtw0 \
+\
+Elevator Version:\
+\
+A few weeks ago, I spent 45 minutes in an Uber traveling from Nob Hill to Soma. I later realized that I could have walked the same stretch in 30 minutes (for free). Perhaps if I had access to a predictive model, I might have called the Uber 5, 10, 15, 30 minutes earlier and arrived at my destination in 30 minutes or less. \ul Utilizing historical traffic data, I believe we could derive a model to predict optimal departure times for given routes in San Francisco, thus minimizing travel times for everyday commuters.\ulnone  Such an application could also take into account multiple travel types \'97 walking, biking, public transit, and driving. Empowered with this knowledge, users could not only plan trips in advance but also determine the best means to get from point A to point B. Ultimately, the model will make quantitative predictions with a structured set of data. Therefore it is a supervised continuous or regression model. With the help of Google\'92s Distance Matrix API, I intend to collect travel time data for a pre-determined list of origins and destinations, which will be accumulated over three weeks and stored in a database. Hopefully, by that time, we can produce a successful working model or at least some meaningful insights.\
+\
+Longer Project Description:\
+\
+Intro:\
+For a moment, let\'92s consider the average commuter\'97someone that lives in the outer sunset and commutes to the financial district every morning. She has to be at work by 9am but doesn\'92t know if it\'92s best to leave by 8, 8:15, or 8:30. Intuitively, an earlier departure should yield a shorter commute, but this isn\'92t always the case. \
+\
+Goal:\
+\ul Utilizing historical traffic data, we could derive a model to predict optimal departure times for given routes, thus minimizing travel times for commuters\ulnone . Such an application could also take into account multiple travel types \'97 walking, biking, public transit, and driving. Empowered with this knowledge, users could not only plan trips in advance but also determine the best means to get from point A to point B. \
+\
+Background:\
+Most map applications, like Waze or Google maps, leverage real-time traffic data. Real-time is great because it incorporates accidents, road closures, etc. However, these services only provide you with an optimal route at a specific point in time. \
+To be fair however, historic SF traffic data likely contains a lot of noise or random events, which would impede the accuracy of a predictive model. \
+\
+Data Source:\
+I believe the Google Distance Matrix API is the best data source for this model. Although it does not offer historical traffic data, this API provides immediate travel times for a given matrix of origins and destinations. If collected at regular intervals (e.g. every 15 minutes), this information could be stored in a database. Three weeks of collected data should hopefully yield enough insight for the purposes of this project. Also, to keep things simple and to avoid incurring the wrath of Google, I will outline a pre-determined list of origins and destinations within and around the city of San Francisco\
+\
+Type of Model:\
+Ultimately, the model will make quantitative predictions with a structured set of data. Therefore it is a supervised continuous or regression model.\
+\
+Inspiration:\
+Not long ago, I spent 45 minutes in an Uber traveling from Nob Hill to a bar in Soma. Later on, I realized that I could have walked the same stretch in 30 minutes. Perhaps if I had access to a predictive model, I could have called the Uber 5,10,15, 30 minutes earlier and arrived at my destination in 30 minutes (the same amount of time it would have taken to walk) or less.}

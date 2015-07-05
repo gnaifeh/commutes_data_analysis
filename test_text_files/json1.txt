@@ -1,0 +1,801 @@
+
+
+{
+  "authenticationResultCode": "ValidCredentials",
+  "brandLogoUri": "http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png",
+  "copyright": "Copyright \u00a9 2015 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+  "resourceSets": [
+    {
+      "estimatedTotal": 1,
+      "resources": [
+        {
+          "__type": "Route:http:\/\/schemas.microsoft.com\/search\/local\/ws\/rest\/v1",
+          "bbox": [
+            37.388363,
+            -122.419791,
+            37.777119,
+            -122.076897
+          ],
+          "id": "v66,h570468289,i0,a2,cen-US,dAAAAAAAAAAA1,y0,s1,m1,o1,t4,wn9JSAyj3JfU1~AhqWWstxZvIEAADgAS62_D4A0~TW91bnRhaW4gVmlldywgQ0E1~~~,wq6NbA-lFHvU1~AhqWWsvxg8QEAADgAR4e9j4A0~U2FuIEZyYW5jaXNjbywgQ0E1~~~,k1",
+          "distanceUnit": "Kilometer",
+          "durationUnit": "Second",
+          "routeLegs": [
+            {
+              "actualEnd": {
+                "type": "Point",
+                "coordinates": [
+                  37.777119,
+                  -122.419642
+                ]
+              },
+              "actualStart": {
+                "type": "Point",
+                "coordinates": [
+                  37.389677,
+                  -122.081606
+                ]
+              },
+              "alternateVias": [
+
+              ],
+              "cost": 0,
+              "description": "US-101 N",
+              "endLocation": {
+                "bbox": [
+                  37.648911,
+                  -122.663658,
+                  37.925674,
+                  -122.183052
+                ],
+                "name": "San Francisco, CA",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    37.777119,
+                    -122.41964
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "CA",
+                  "adminDistrict2": "San Francisco Co.",
+                  "countryRegion": "United States",
+                  "formattedAddress": "San Francisco, CA",
+                  "locality": "San Francisco"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      37.777119,
+                      -122.41964
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "itineraryItems": [
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 212,
+                      "endPathIndices": [
+                        1
+                      ],
+                      "maneuverType": "DepartStart",
+                      "mode": "Driving",
+                      "names": [
+                        "Castro St"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "DepartStart",
+                    "text": "Depart Castro St toward Mercy St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.389677,
+                      -122.081606
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "towardsRoadName": "Mercy St",
+                  "transitTerminus": "",
+                  "travelDistance": 0.159,
+                  "travelDuration": 16,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northwest",
+                  "details": [
+                    {
+                      "compassDegrees": 294,
+                      "endPathIndices": [
+                        4
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Church St"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        1
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Church St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.388363,
+                      -122.082347
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.432,
+                  "travelDuration": 45,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 41,
+                      "endPathIndices": [
+                        9
+                      ],
+                      "locationCodes": [
+                        "105+12998"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "S Shoreline Blvd"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        4
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto S Shoreline Blvd"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.390358,
+                      -122.08651
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.949,
+                  "travelDuration": 71,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 22,
+                      "endPathIndices": [
+                        16
+                      ],
+                      "locationCodes": [
+                        "105P12998",
+                        "105+12999",
+                        "105P12999",
+                        "105+13000",
+                        "105+13001",
+                        "105P13000",
+                        "105P13001"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "N Shoreline Blvd"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        9
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto N Shoreline Blvd"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.397783,
+                      -122.081537
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.726,
+                  "travelDuration": 130,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northwest",
+                  "details": [
+                    {
+                      "compassDegrees": 18,
+                      "endPathIndices": [
+                        28
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        16
+                      ]
+                    },
+                    {
+                      "compassDegrees": 305,
+                      "endPathIndices": [
+                        145
+                      ],
+                      "locationCodes": [
+                        "105P04150",
+                        "105+04150",
+                        "105P04151",
+                        "105+04151",
+                        "105+04152",
+                        "105P04152",
+                        "105+04154",
+                        "105P04153",
+                        "105+04153",
+                        "105+04155",
+                        "105P04154",
+                        "105P04155",
+                        "105+04156",
+                        "105P04156",
+                        "105+04157",
+                        "105P04157",
+                        "105+04158",
+                        "105P04158",
+                        "105+04159",
+                        "105P04159",
+                        "105+04160",
+                        "105P04160",
+                        "105+04161",
+                        "105P04161",
+                        "105+04162",
+                        "105P04162",
+                        "105+04164",
+                        "105P04163",
+                        "105+04163",
+                        "105P04164",
+                        "105+04165",
+                        "105P04165",
+                        "105+04166",
+                        "105P04166",
+                        "105+04167",
+                        "105P04167",
+                        "105+04168",
+                        "105P04168",
+                        "105+04169",
+                        "105+04170",
+                        "105P04169",
+                        "105+04171",
+                        "105P04170",
+                        "105P04171",
+                        "105+04172",
+                        "105P04172",
+                        "105+04173",
+                        "105P04173",
+                        "105+04174",
+                        "105P04174",
+                        "105+04177",
+                        "105+04179",
+                        "105+04178",
+                        "105+04176",
+                        "105+04175",
+                        "105P04176",
+                        "105P04179",
+                        "105P04177",
+                        "105P04178",
+                        "105P04175",
+                        "105+04180",
+                        "105P04180",
+                        "105+04181",
+                        "105P04181",
+                        "105+04182",
+                        "105P04182",
+                        "105+04183",
+                        "105P04183",
+                        "105+04184",
+                        "105P04184",
+                        "105+04185",
+                        "105P04185",
+                        "105+04186",
+                        "105P04186",
+                        "105+04187",
+                        "105P04187",
+                        "105+04188"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "US-101 North"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 51203,
+                        "shields": [
+                          {
+                            "labels": [
+                              "101"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        28
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "Take ramp right for US-101 North toward San Francisco"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.412401,
+                      -122.078002
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "US-101 North",
+                    "San Francisco"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 55.611,
+                  "travelDuration": 2080,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "37.740719,-122.407742",
+                      "severity": "Serious",
+                      "text": "Serious Congestion",
+                      "to": "37.741631,-122.407361",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 348,
+                      "endPathIndices": [
+                        154
+                      ],
+                      "locationCodes": [
+                        "105P04188",
+                        "105P10447",
+                        "105+10448",
+                        "105+10449"
+                      ],
+                      "maneuverType": "KeepToStayLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Central Fwy"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 51203,
+                        "shields": [
+                          {
+                            "labels": [
+                              "101"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        145
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepToStayLeft",
+                    "text": "Keep left to stay on US-101 N \/ Central Fwy"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.765422,
+                      -122.404861
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "US-101 North",
+                    "Golden Gate Br"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.338,
+                  "travelDuration": 66,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "37.765422,-122.404861",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "37.765932,-122.404969",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 280,
+                      "endPathIndices": [
+                        156
+                      ],
+                      "locationCodes": [
+                        "105+05636"
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        154
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TakeRampRight",
+                    "text": "Take ramp right"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.769693,
+                      -122.416207
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.288,
+                  "travelDuration": 32,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 17,
+                      "endPathIndices": [
+                        160
+                      ],
+                      "locationCodes": [
+                        "105+05636",
+                        "105+10333",
+                        "105+05637"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Mission St"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 51212,
+                        "shields": [
+                          {
+                            "labels": [
+                              "101"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        156
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto US-101 N \/ Mission St"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.770213,
+                      -122.419378
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.281,
+                  "travelDuration": 57,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "37.770508,-122.419791",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "37.771012,-122.41963",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 347,
+                      "endPathIndices": [
+                        163
+                      ],
+                      "locationCodes": [
+                        "105+05637",
+                        "105P10333",
+                        "105+05638",
+                        "105+05639"
+                      ],
+                      "maneuverType": "KeepToStayStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "S Van Ness Ave"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 51212,
+                        "shields": [
+                          {
+                            "labels": [
+                              "101"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        160
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepToStayStraight",
+                    "text": "Keep straight to stay on US-101 \/ S Van Ness Ave"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.772428,
+                      -122.418932
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.539,
+                  "travelDuration": 134,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "37.77311,-122.418632",
+                      "severity": "Moderate",
+                      "text": "Moderate Congestion",
+                      "to": "37.773179,-122.418648",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 347,
+                      "endPathIndices": [
+                        163
+                      ],
+                      "locationCodes": [
+                        "105+05639"
+                      ],
+                      "maneuverType": "ArriveFinish",
+                      "mode": "Driving",
+                      "names": [
+                        "Van Ness Ave"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 51207,
+                        "shields": [
+                          {
+                            "labels": [
+                              "101"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        163
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "hints": [
+                    {
+                      "hintType": "NextIntersection",
+                      "text": "If you reach Hayes St, you've gone too far"
+                    }
+                  ],
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ArriveFinish",
+                    "text": "Arrive at San Francisco, CA"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.777119,
+                      -122.419642
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0,
+                  "travelDuration": 0,
+                  "travelMode": "Driving"
+                }
+              ],
+              "routeRegion": "NAv2",
+              "routeSubLegs": [
+                {
+                  "endWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.777119,
+                      -122.419642
+                    ],
+                    "description": "San Francisco, CA",
+                    "isVia": false,
+                    "locationIdentifier": "2|26|150|90|203|241|131|196|4|0|0|224|1|30|30|246|62|0|37.777119,-122.419642",
+                    "routePathIndex": 163
+                  },
+                  "startWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      37.389677,
+                      -122.081606
+                    ],
+                    "description": "Mountain View, CA",
+                    "isVia": false,
+                    "locationIdentifier": "2|26|150|90|203|113|102|242|4|0|0|224|1|46|182|252|62|0|37.389677,-122.081606",
+                    "routePathIndex": 0
+                  },
+                  "travelDistance": 61.323,
+                  "travelDuration": 2635
+                }
+              ],
+              "startLocation": {
+                "bbox": [
+                  37.341206,
+                  -122.187248,
+                  37.445118,
+                  -121.975632
+                ],
+                "name": "Mountain View, CA",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    37.389671,
+                    -122.081596
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "CA",
+                  "adminDistrict2": "Santa Clara Co.",
+                  "countryRegion": "United States",
+                  "formattedAddress": "Mountain View, CA",
+                  "locality": "Mountain View"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      37.389671,
+                      -122.081596
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "travelDistance": 61.323,
+              "travelDuration": 2635
+            }
+          ],
+          "trafficCongestion": "Heavy",
+          "trafficDataUsed": "None",
+          "travelDistance": 61.323,
+          "travelDuration": 2635,
+          "travelDurationTraffic": 4683
+        }
+      ]
+    }
+  ],
+  "statusCode": 200,
+  "statusDescription": "OK",
+  "traceId": "78f7d0d12916449ebf532c2515f56ea6|CO30275940|02.00.152.100|CO3SCH010265213, i-8df9647b.us-west-2b, CO3SCH010265516, CO3SCH010265304, CO3SCH010273841, CO3SCH010273823, CO3SCH010265214, CO30234635, CO30265130"
+}
