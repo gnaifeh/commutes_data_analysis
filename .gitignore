@@ -65,3 +65,5 @@ query_data_file.pyc
 ec2_dumps/
 
 ignore/
+
+usage/
